@@ -481,7 +481,7 @@ video.demo { width: 100%; height: auto; display: block; background: #000; }
 .t.wide { grid-column: 1 / -1; }
 .t.wide:not(.fixed) .shot { aspect-ratio: auto; }
 .t.wide:not(.fixed) .shot img { height: auto; }
-.t.contain .shot { background: #fff; }
+.t.contain .shot { background: #fff; background-image: none !important; }
 .t.contain .shot img { object-fit: contain; }
 .t figcaption { margin-top: 5px; font-size: 12.5px; line-height: 1.45; color: var(--ink-2); }
 @media (max-width: 640px) { .tg { gap: 12px 8px; } .t figcaption { font-size: 12px; } }
